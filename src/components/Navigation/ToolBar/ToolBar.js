@@ -11,7 +11,7 @@ const ToolBar = () => {
         <Logo />
       </div>
 
-      <nav className={classes.nav}>
+      <nav className={classes.DesktopOnly}>
         <NavigationItems />
       </nav>
     </header>
